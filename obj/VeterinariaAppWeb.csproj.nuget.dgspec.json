@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyecto\\VeterinariaAppWeb\\VeterinariaAppWeb.csproj": {}
+    "D:\\Proyecto\\veterinaria\\VeterinariaAppWeb.csproj": {}
   },
   "projects": {
-    "D:\\Proyecto\\VeterinariaAppWeb\\VeterinariaAppWeb.csproj": {
+    "D:\\Proyecto\\veterinaria\\VeterinariaAppWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyecto\\VeterinariaAppWeb\\VeterinariaAppWeb.csproj",
+        "projectUniqueName": "D:\\Proyecto\\veterinaria\\VeterinariaAppWeb.csproj",
         "projectName": "VeterinariaAppWeb",
-        "projectPath": "D:\\Proyecto\\VeterinariaAppWeb\\VeterinariaAppWeb.csproj",
+        "projectPath": "D:\\Proyecto\\veterinaria\\VeterinariaAppWeb.csproj",
         "packagesPath": "C:\\Users\\Alumno.CHANGE_NAME\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyecto\\VeterinariaAppWeb\\obj\\",
+        "outputPath": "D:\\Proyecto\\veterinaria\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,16 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
